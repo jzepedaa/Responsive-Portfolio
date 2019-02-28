@@ -38,7 +38,6 @@ h1 {
 }
 
 nav {
-  width: 100%;
   widows: 270px;
   float: right;
   text-align: center;
@@ -209,27 +208,23 @@ footer {
 
 /* media quieries here */
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 960px) {
   .headercontainer {
-    max-width: 100%;
+    max-width: 420px;
     margin-left: 115px;
     clear: both;
   }
   header {
     max-width: 100%;
-    margin-left: 115px;
+    margin-left: 70px;
+    margin-right: 20px;
     clear: both;
   }
 
-  /* ul {
-    max-width: 420;
-    margin-left: 115px;
-  } */
   li {
     max-width: 100%;
     margin-left: 2px;
     text-align: center;
-    /* clear: both; */
   }
   .links {
     float: left;
@@ -238,9 +233,9 @@ footer {
     clear: both;
   }
   nav.links {
-    max-width: 420px;
-    margin-left: 215px;
-    /* clear: both; */
+    max-width: 305px;
+    margin-left: 54px;
+    background-color: black;
   }
 
   .mainsection {
@@ -255,6 +250,84 @@ footer {
   }
 }
 @media only screen and (max-width: 768px) {
+  .headercontainer {
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
+  header {
+    max-width: 100%;
+    margin-left: 70px;
+    margin-right: 20px;
+    clear: both;
+  }
+
+  li {
+    max-width: 100%;
+    margin-left: 2px;
+    text-align: center;
+  }
+  .links {
+    float: left;
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
+  nav.links {
+    max-width: 305px;
+    margin-left: 54px;
+    background-color: black;
+  }
+
+  .mainsection {
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
+  footer {
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
 }
 @media only screen and (max-width: 640px) {
+  .headercontainer {
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
+  header {
+    max-width: 100%;
+    margin-left: 70px;
+    margin-right: 20px;
+    clear: both;
+  }
+
+  li {
+    max-width: 100%;
+    margin-left: 2px;
+    text-align: center;
+  }
+  .links {
+    float: left;
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
+  nav.links {
+    max-width: 305px;
+    margin-left: 54px;
+    background-color: black;
+  }
+
+  .mainsection {
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
+  footer {
+    max-width: 420px;
+    margin-left: 115px;
+    clear: both;
+  }
 }
