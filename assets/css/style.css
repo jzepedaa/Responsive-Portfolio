@@ -297,6 +297,7 @@ footer {
     clear: both;
   }
   header {
+    overflow: hidden;
     max-width: 100%;
     margin-left: 70px;
     margin-right: 20px;
@@ -304,17 +305,20 @@ footer {
   }
 
   li {
+    overflow: hidden;
     max-width: 100%;
     margin-left: 2px;
     text-align: center;
   }
   .links {
+    overflow: hidden;
     float: left;
     max-width: 420px;
     margin-left: 115px;
     clear: both;
   }
   nav.links {
+    overflow: hidden;
     max-width: 305px;
     margin-left: 54px;
     background-color: black;
