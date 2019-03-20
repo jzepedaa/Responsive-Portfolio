@@ -134,7 +134,7 @@ img {
 .btn {
   position: absolute;
   border: black;
-  color: white;
+  color: red;
   bottom: 8px;
   left: 40px;
   opacity: 100%;
